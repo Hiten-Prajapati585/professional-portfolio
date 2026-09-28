@@ -1,0 +1,23 @@
+# VS Code
+.vscode/
+
+# Environment / private configuration
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# PHP Composer
+/vendor/
+
+# Private uploaded files
+uploads/*
+!uploads/.gitkeep
