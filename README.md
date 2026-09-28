@@ -65,6 +65,9 @@ Use a hosting provider that supports PHP + MySQL (shared hosting/cPanel, VPS, et
 6. Visit `/admin/login.php` and sign in.
 7. Replace the default profile data and add your real projects.
 
+## Live URL
+   -- https://professional-portfolio.fwh.is 
+
 ## Upload limits
 
 The application validates MIME types and file sizes in PHP. Current application limits are:
