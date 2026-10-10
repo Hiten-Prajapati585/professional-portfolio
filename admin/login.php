@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div><?php if ($error): ?><div class="alert alert-danger"><?= e($error) ?></div><?php endif; ?><form method="post"><input type="hidden" name="csrf" value="<?= e(csrf_token()) ?>"><label class="form-label">Email</label><input type="email" name="email" class="form-control mb-3" required autocomplete="username"><label class="form-label">Password</label>
           <div class="input-group mb-3"><input type="password" name="password" id="password" class="form-control" required autocomplete="current-password"><button class="btn btn-outline-secondary" type="button" onclick="const p=document.getElementById('password');p.type=p.type==='password'?'text':'password';"><i class="bi bi-eye"></i></button></div><button class="btn btn-primary w-100"><i class="bi bi-box-arrow-in-right"></i> Login</button>
         </form>
-        <div class="small text-secondary mt-3">Default SQL account: <code>admin@example.com</code> / <code>portfolio123</code>. Change it immediately from Admin Settings.</div>
+        <!-- <div class="small text-secondary mt-3">Default SQL account: <code>admin@example.com</code> / <code>portfolio123</code>. Change it immediately from Admin Settings.</div> -->
       </div>
     </div>
   </div>
